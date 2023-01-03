@@ -1,0 +1,53 @@
+.menu {
+  background-color: #EEEEEE;
+}
+
+.menu__inner {
+  display: grid;
+  justify-items: center;
+  gap: 24px 30px;
+
+  @media (min-width: $tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.menu__item {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.menu__icon {
+  max-height: 72px;
+  max-width: 72px;
+
+  border-radius: 50%;
+}
+
+.menu__decription {
+  width: 100%;
+
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.menu__header {
+  position: relative;
+}
+
+.menu__name {
+  text-transform: uppercase;
+  padding-right: 15%;
+}
+
+.menu__price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu__text {
+  font-size: rem(12);
+  line-height: 2;
+}

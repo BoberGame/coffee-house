@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --black: #000000;
+  --primary: #987D61;
+}
+
+$browser-fontsize: 16;
+$container-padding: 2em;
+$container-maxwidth: 1120px;
+
+/* Media */
+// $laptop-lg: 1400px;
+// $laptop: 1140px;
+// $tablet: 992px;
+// $mobile: 769px;
+// $mobile-sm: 576px;
+// $mobile-xs: 446px;
+// $mobile-min: 375px;
+
+/* Media(em) */
+$laptop-lg: 87em;
+$laptop: 71.2em;
+$tablet: 62em;
+$mobile: 50em;
+$mobile-sm: 36em;
+$mobile-xs: 28em;
+$mobile-min: 23.4em;

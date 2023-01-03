@@ -1,0 +1,32 @@
+@import "vendor/reset";
+@import "fonts";
+@import "mixins";
+@import "variables";
+@import "global";
+@import "helpers";
+
+/* Aos */
+@import "vendor/aos";
+
+/* Swiper */
+@import '../../node_modules/swiper/swiper.scss';
+@import '../../node_modules/swiper/modules/pagination/pagination.scss';
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/buttons";
+@import "blocks/section";
+@import "blocks/features";
+@import "blocks/menu";
+@import "blocks/testimonials";
+@import "blocks/news";
+@import "blocks/location";
+@import "blocks/form";
+@import "blocks/footer";
+@import "blocks/menu-burger";
+@import "blocks/tabs";
+@import "blocks/slider";

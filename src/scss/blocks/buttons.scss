@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: em(13) em(40);
+
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease-out, color 0.2s ease-out;
+  color: #fff;
+  border: 1px solid #fff;
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+  }
+}

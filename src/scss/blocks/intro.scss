@@ -1,0 +1,39 @@
+.intro {
+  background: url('../img/intro-bg1.jpg') center / cover no-repeat;
+  min-height: 100vh;
+  padding: 190px 0;
+}
+
+.intro__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #fff;
+}
+
+.intro__logo {
+  max-width: 120px;
+  max-height: 122px;
+  margin-bottom: 20px;
+}
+
+.intro__title {
+  font-weight: 700;
+  margin-bottom: em(20, 96);
+
+  @include adaptiv-value(font-size, 96, 34, 0);
+}
+
+.intro__subtitle {
+  margin-bottom: em(48, 32);
+
+  font-size: rem(24);
+
+  @media (min-width: $mobile) {
+    max-width: 69%;
+    font-size: rem(32);
+  }
+}

@@ -1,0 +1,23 @@
+.testimonials {
+  padding-bottom: 160px;
+  background: url('../img/testimonials-bg.jpg') center / cover no-repeat;
+}
+
+.testimonials__wrapper {
+  position: relative;
+  
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials__text {
+  @media (min-width: $mobile-sm) {
+    max-width: 70%;
+    margin: 0 auto;
+    user-select: none;
+  }
+}
+
+.testimonials__author {
+  margin-top: 24px;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: #fff;
+  color: var(--black);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img,
+button,
+svg {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+
+  &:focus-visible {
+    color: var(--primary);
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}

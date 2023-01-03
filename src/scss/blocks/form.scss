@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include adaptiv-value(column-gap, 24, 10, 0);
+}
+
+.form__input {
+  display: inline-block;
+  padding: em(13) em(15) em(13) em(22);
+
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1rem;
+
+  @media (max-width: $mobile-xs) {
+    width: 100%;
+    font-size: rem(14);
+  }
+
+  &::placeholder {
+    color: #fff;
+  }
+
+  &:focus {
+    outline: 0;
+    border-color: var(--primary);
+  }
+}
+
+.form__btn {
+  @media (max-width: $mobile-xs) {
+    font-size: rem(14);
+
+  }
+
+  &:focus {
+    outline: 0;
+    border-color: var(--primary);
+  }
+}

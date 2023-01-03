@@ -1,0 +1,69 @@
+.section {
+  padding: 95px 0;
+
+  &_book {
+    background: url('../img/book-bg.jpg') center / cover no-repeat;
+    text-align: center;
+  }
+
+  &_newsletter {
+    background-color: #111;
+    text-align: center;
+  }
+}
+
+.section__header {
+  margin-bottom: 72px;
+
+  text-align: center;
+  color: #fff;
+
+  &_black {
+    color: var(--black);
+
+    .section__title::after {
+      background-color: var(--black);
+    }
+  }
+}
+
+.section__title {
+  margin-bottom: 48px;
+  position: relative;
+
+  font-size: rem(40);
+  font-weight: 700;
+}
+
+.section__text {
+  margin: 0 auto;
+  max-width: 474px;
+  font-size: 1rem;
+}
+
+.section__line {
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  .section__header_black & {
+    background-color: var(--black);
+  }
+}
+
+[data-aos="line-grow"] {
+  opacity: 0;
+  transition-property: transform, opacity, width;
+
+  &.aos-animate {
+    opacity: 1;
+    width: 190px;
+  }
+}

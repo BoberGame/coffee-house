@@ -1,0 +1,23 @@
+.swiper {
+  position: static;
+
+  & .swiper-wrapper {
+    position: static;
+  }
+}
+
+.swiper > .swiper-pagination {
+  bottom: -64px;
+}
+
+.swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+
+  &-active {
+    background-color: #FFFFFF;
+  }
+}
