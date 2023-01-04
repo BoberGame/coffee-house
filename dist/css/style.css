@@ -3003,12 +3003,6 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 36em) {
-  .nav__menu {
-    padding: 60px;
-  }
-}
-
 @media (max-width: 28em) {
   .form__input {
     width: 100%;
@@ -3119,6 +3113,12 @@ button.swiper-pagination-bullet {
     -webkit-transform: rotate(45deg) translateY(50%);
         -ms-transform: rotate(45deg) translateY(50%);
             transform: rotate(45deg) translateY(50%);
+  }
+}
+
+@media (max-width: 36em) {
+  .nav__menu {
+    padding: 60px;
   }
 }
 
