@@ -3003,23 +3003,6 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 36em) {
-  .nav__menu {
-    padding: 60px;
-  }
-}
-
-@media (max-width: 28em) {
-  .form__input {
-    width: 100%;
-    font-size: 0.875rem;
-  }
-
-  .form__btn {
-    font-size: 0.875rem;
-  }
-}
-
 @media (max-width: 71.2em) {
   .nav__menu {
     -webkit-box-orient: vertical;
@@ -3119,6 +3102,23 @@ button.swiper-pagination-bullet {
     -webkit-transform: rotate(45deg) translateY(50%);
         -ms-transform: rotate(45deg) translateY(50%);
             transform: rotate(45deg) translateY(50%);
+  }
+}
+
+@media (max-width: 36em) {
+  .nav__menu {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 28em) {
+  .form__input {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .form__btn {
+    font-size: 0.875rem;
   }
 }
 
