@@ -3003,6 +3003,20 @@ button.swiper-pagination-bullet {
   }
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 28em) {
+  .form__input {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .form__btn {
+    font-size: 0.875rem;
+  }
+}
+
+>>>>>>> 84547e039d4ace76b7e3400f7a03d15163b020ec
 @media (max-width: 71.2em) {
   .nav__menu {
     -webkit-box-orient: vertical;
@@ -3111,6 +3125,7 @@ button.swiper-pagination-bullet {
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 28em) {
   .form__input {
     width: 100%;
@@ -3122,6 +3137,8 @@ button.swiper-pagination-bullet {
   }
 }
 
+=======
+>>>>>>> 84547e039d4ace76b7e3400f7a03d15163b020ec
 @media (any-hover: hover) {
   a:hover {
     color: var(--primary);
